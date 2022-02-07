@@ -4,8 +4,25 @@
 
 #include <stdio.h>
 
-int main() {
-  
-  return 0;
+int main(void){
+	
+	int m1,m2;
+	double avg;
+	
+	printf("Enter marks for 1 : ");
+	scanf("%d", &m1);
+	
+	printf("Enter marks for 2 : ");
+	scanf("%d", &m2);
+	
+	
+	
+	
+	avg = ( m1 + m2 ) / 2.0;
+	
+	printf("\navg = %.2f", avg);
+	
+	
+	return 0;
 }
 
